@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		B1D5110D1CF09FA0000E08DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D5110C1CF09FA0000E08DF /* main.m */; };
 		B1D511101CF09FA0000E08DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D5110F1CF09FA0000E08DF /* AppDelegate.m */; };
-		B1D511131CF09FA0000E08DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D511121CF09FA0000E08DF /* ViewController.m */; };
+		B1D511131CF09FA0000E08DF /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D511121CF09FA0000E08DF /* IntroductionViewController.m */; };
 		B1D511161CF09FA0000E08DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D511141CF09FA0000E08DF /* Main.storyboard */; };
 		B1D511181CF09FA0000E08DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D511171CF09FA0000E08DF /* Assets.xcassets */; };
 		B1D5111B1CF09FA0000E08DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D511191CF09FA0000E08DF /* LaunchScreen.storyboard */; };
 		B1D511261CF09FA0000E08DF /* MyBestHelperQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D511251CF09FA0000E08DF /* MyBestHelperQuizTests.m */; };
 		B1D511311CF09FA0000E08DF /* MyBestHelperQuizUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D511301CF09FA0000E08DF /* MyBestHelperQuizUITests.m */; };
+		B1D511491CF0CC74000E08DF /* AvatarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D511481CF0CC74000E08DF /* AvatarCollectionViewCell.m */; };
+		B1EFDD801CF1164E005C6BBD /* museosans-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1EFDD7B1CF1164E005C6BBD /* museosans-500.otf */; };
+		B1EFDD811CF1164E005C6BBD /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1EFDD7C1CF1164E005C6BBD /* NotoSans-Bold.ttf */; };
+		B1EFDD821CF1164E005C6BBD /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1EFDD7D1CF1164E005C6BBD /* NotoSans-BoldItalic.ttf */; };
+		B1EFDD831CF1164E005C6BBD /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1EFDD7E1CF1164E005C6BBD /* NotoSans-Italic.ttf */; };
+		B1EFDD841CF1164E005C6BBD /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1EFDD7F1CF1164E005C6BBD /* NotoSans-Regular.ttf */; };
+		B1EFDD881CF12D6B005C6BBD /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EFDD871CF12D6B005C6BBD /* CreditsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +42,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B1D511081CF09FA0000E08DF /* MyBestHelperQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBestHelperQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D511081CF09FA0000E08DF /* MyBestProfiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBestProfiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D5110C1CF09FA0000E08DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1D5110E1CF09FA0000E08DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1D5110F1CF09FA0000E08DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B1D511111CF09FA0000E08DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B1D511121CF09FA0000E08DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1D511111CF09FA0000E08DF /* IntroductionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroductionViewController.h; sourceTree = "<group>"; };
+		B1D511121CF09FA0000E08DF /* IntroductionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
 		B1D511151CF09FA0000E08DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1D511171CF09FA0000E08DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D5111A1CF09FA0000E08DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D5111C1CF09FA0000E08DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1D511211CF09FA0000E08DF /* MyBestHelperQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBestHelperQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D511211CF09FA0000E08DF /* MyBestProfiler.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBestProfiler.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D511251CF09FA0000E08DF /* MyBestHelperQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBestHelperQuizTests.m; sourceTree = "<group>"; };
 		B1D511271CF09FA0000E08DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1D5112C1CF09FA0000E08DF /* MyBestHelperQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBestHelperQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D5112C1CF09FA0000E08DF /* MyBestProfiler.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBestProfiler.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D511301CF09FA0000E08DF /* MyBestHelperQuizUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBestHelperQuizUITests.m; sourceTree = "<group>"; };
 		B1D511321CF09FA0000E08DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D511471CF0CC74000E08DF /* AvatarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarCollectionViewCell.h; sourceTree = "<group>"; };
+		B1D511481CF0CC74000E08DF /* AvatarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarCollectionViewCell.m; sourceTree = "<group>"; };
+		B1EFDD7B1CF1164E005C6BBD /* museosans-500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "museosans-500.otf"; sourceTree = "<group>"; };
+		B1EFDD7C1CF1164E005C6BBD /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		B1EFDD7D1CF1164E005C6BBD /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B1EFDD7E1CF1164E005C6BBD /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		B1EFDD7F1CF1164E005C6BBD /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		B1EFDD861CF12D6B005C6BBD /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		B1EFDD871CF12D6B005C6BBD /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +107,9 @@
 		B1D511091CF09FA0000E08DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1D511081CF09FA0000E08DF /* MyBestHelperQuiz.app */,
-				B1D511211CF09FA0000E08DF /* MyBestHelperQuizTests.xctest */,
-				B1D5112C1CF09FA0000E08DF /* MyBestHelperQuizUITests.xctest */,
+				B1D511081CF09FA0000E08DF /* MyBestProfiler.app */,
+				B1D511211CF09FA0000E08DF /* MyBestProfiler.xctest */,
+				B1D5112C1CF09FA0000E08DF /* MyBestProfiler.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,12 +119,15 @@
 			children = (
 				B1D5110E1CF09FA0000E08DF /* AppDelegate.h */,
 				B1D5110F1CF09FA0000E08DF /* AppDelegate.m */,
-				B1D511111CF09FA0000E08DF /* ViewController.h */,
-				B1D511121CF09FA0000E08DF /* ViewController.m */,
+				B1D511441CF0CC23000E08DF /* Model */,
+				B1D511451CF0CC29000E08DF /* View */,
+				B1D511461CF0CC42000E08DF /* Controller */,
 				B1D511141CF09FA0000E08DF /* Main.storyboard */,
 				B1D511171CF09FA0000E08DF /* Assets.xcassets */,
 				B1D511191CF09FA0000E08DF /* LaunchScreen.storyboard */,
 				B1D5111C1CF09FA0000E08DF /* Info.plist */,
+				B1D5113E1CF0A7B3000E08DF /* Library */,
+				B1EFDD851CF1166C005C6BBD /* Resources */,
 				B1D5110B1CF09FA0000E08DF /* Supporting Files */,
 			);
 			path = MyBestHelperQuiz;
@@ -140,12 +159,67 @@
 			path = MyBestHelperQuizUITests;
 			sourceTree = "<group>";
 		};
+		B1D5113E1CF0A7B3000E08DF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		B1D511441CF0CC23000E08DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B1D511451CF0CC29000E08DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1D511471CF0CC74000E08DF /* AvatarCollectionViewCell.h */,
+				B1D511481CF0CC74000E08DF /* AvatarCollectionViewCell.m */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B1D511461CF0CC42000E08DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFDD861CF12D6B005C6BBD /* CreditsViewController.h */,
+				B1EFDD871CF12D6B005C6BBD /* CreditsViewController.m */,
+				B1D511111CF09FA0000E08DF /* IntroductionViewController.h */,
+				B1D511121CF09FA0000E08DF /* IntroductionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B1EFDD7A1CF11406005C6BBD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFDD7B1CF1164E005C6BBD /* museosans-500.otf */,
+				B1EFDD7C1CF1164E005C6BBD /* NotoSans-Bold.ttf */,
+				B1EFDD7D1CF1164E005C6BBD /* NotoSans-BoldItalic.ttf */,
+				B1EFDD7E1CF1164E005C6BBD /* NotoSans-Italic.ttf */,
+				B1EFDD7F1CF1164E005C6BBD /* NotoSans-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		B1EFDD851CF1166C005C6BBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFDD7A1CF11406005C6BBD /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1D511071CF09FA0000E08DF /* MyBestHelperQuiz */ = {
+		B1D511071CF09FA0000E08DF /* MyBestProfiler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1D511351CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestHelperQuiz" */;
+			buildConfigurationList = B1D511351CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestProfiler" */;
 			buildPhases = (
 				B1D511041CF09FA0000E08DF /* Sources */,
 				B1D511051CF09FA0000E08DF /* Frameworks */,
@@ -155,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = MyBestHelperQuiz;
+			name = MyBestProfiler;
 			productName = MyBestHelperQuiz;
-			productReference = B1D511081CF09FA0000E08DF /* MyBestHelperQuiz.app */;
+			productReference = B1D511081CF09FA0000E08DF /* MyBestProfiler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B1D511201CF09FA0000E08DF /* MyBestHelperQuizTests */ = {
+		B1D511201CF09FA0000E08DF /* MyBestProfilerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1D511381CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestHelperQuizTests" */;
+			buildConfigurationList = B1D511381CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestProfilerTests" */;
 			buildPhases = (
 				B1D5111D1CF09FA0000E08DF /* Sources */,
 				B1D5111E1CF09FA0000E08DF /* Frameworks */,
@@ -173,14 +247,14 @@
 			dependencies = (
 				B1D511231CF09FA0000E08DF /* PBXTargetDependency */,
 			);
-			name = MyBestHelperQuizTests;
+			name = MyBestProfilerTests;
 			productName = MyBestHelperQuizTests;
-			productReference = B1D511211CF09FA0000E08DF /* MyBestHelperQuizTests.xctest */;
+			productReference = B1D511211CF09FA0000E08DF /* MyBestProfiler.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B1D5112B1CF09FA0000E08DF /* MyBestHelperQuizUITests */ = {
+		B1D5112B1CF09FA0000E08DF /* MyBestProfilerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1D5113B1CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestHelperQuizUITests" */;
+			buildConfigurationList = B1D5113B1CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestProfilerUITests" */;
 			buildPhases = (
 				B1D511281CF09FA0000E08DF /* Sources */,
 				B1D511291CF09FA0000E08DF /* Frameworks */,
@@ -191,9 +265,9 @@
 			dependencies = (
 				B1D5112E1CF09FA0000E08DF /* PBXTargetDependency */,
 			);
-			name = MyBestHelperQuizUITests;
+			name = MyBestProfilerUITests;
 			productName = MyBestHelperQuizUITests;
-			productReference = B1D5112C1CF09FA0000E08DF /* MyBestHelperQuizUITests.xctest */;
+			productReference = B1D5112C1CF09FA0000E08DF /* MyBestProfiler.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1D511031CF09FA0000E08DF /* Build configuration list for PBXProject "MyBestHelperQuiz" */;
+			buildConfigurationList = B1D511031CF09FA0000E08DF /* Build configuration list for PBXProject "MyBestProfiler" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +305,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1D511071CF09FA0000E08DF /* MyBestHelperQuiz */,
-				B1D511201CF09FA0000E08DF /* MyBestHelperQuizTests */,
-				B1D5112B1CF09FA0000E08DF /* MyBestHelperQuizUITests */,
+				B1D511071CF09FA0000E08DF /* MyBestProfiler */,
+				B1D511201CF09FA0000E08DF /* MyBestProfilerTests */,
+				B1D5112B1CF09FA0000E08DF /* MyBestProfilerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,8 +317,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1EFDD821CF1164E005C6BBD /* NotoSans-BoldItalic.ttf in Resources */,
+				B1EFDD801CF1164E005C6BBD /* museosans-500.otf in Resources */,
 				B1D5111B1CF09FA0000E08DF /* LaunchScreen.storyboard in Resources */,
 				B1D511181CF09FA0000E08DF /* Assets.xcassets in Resources */,
+				B1EFDD841CF1164E005C6BBD /* NotoSans-Regular.ttf in Resources */,
+				B1EFDD831CF1164E005C6BBD /* NotoSans-Italic.ttf in Resources */,
+				B1EFDD811CF1164E005C6BBD /* NotoSans-Bold.ttf in Resources */,
 				B1D511161CF09FA0000E08DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +349,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D511131CF09FA0000E08DF /* ViewController.m in Sources */,
+				B1D511131CF09FA0000E08DF /* IntroductionViewController.m in Sources */,
+				B1EFDD881CF12D6B005C6BBD /* CreditsViewController.m in Sources */,
 				B1D511101CF09FA0000E08DF /* AppDelegate.m in Sources */,
 				B1D5110D1CF09FA0000E08DF /* main.m in Sources */,
+				B1D511491CF0CC74000E08DF /* AvatarCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +378,12 @@
 /* Begin PBXTargetDependency section */
 		B1D511231CF09FA0000E08DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B1D511071CF09FA0000E08DF /* MyBestHelperQuiz */;
+			target = B1D511071CF09FA0000E08DF /* MyBestProfiler */;
 			targetProxy = B1D511221CF09FA0000E08DF /* PBXContainerItemProxy */;
 		};
 		B1D5112E1CF09FA0000E08DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B1D511071CF09FA0000E08DF /* MyBestHelperQuiz */;
+			target = B1D511071CF09FA0000E08DF /* MyBestProfiler */;
 			targetProxy = B1D5112D1CF09FA0000E08DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,8 +496,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyBestHelperQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroyusim.MyBestHelperQuiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.mybestprofiler.app;
+				PRODUCT_NAME = MyBestProfiler;
 			};
 			name = Debug;
 		};
@@ -426,8 +507,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyBestHelperQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroyusim.MyBestHelperQuiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.mybestprofiler.app;
+				PRODUCT_NAME = MyBestProfiler;
 			};
 			name = Release;
 		};
@@ -438,8 +519,8 @@
 				INFOPLIST_FILE = MyBestHelperQuizTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroyusim.MyBestHelperQuizTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBestHelperQuiz.app/MyBestHelperQuiz";
+				PRODUCT_NAME = MyBestProfiler;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBestProfiler.app/MyBestProfiler";
 			};
 			name = Debug;
 		};
@@ -450,8 +531,8 @@
 				INFOPLIST_FILE = MyBestHelperQuizTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroyusim.MyBestHelperQuizTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBestHelperQuiz.app/MyBestHelperQuiz";
+				PRODUCT_NAME = MyBestProfiler;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBestProfiler.app/MyBestProfiler";
 			};
 			name = Release;
 		};
@@ -461,7 +542,7 @@
 				INFOPLIST_FILE = MyBestHelperQuizUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroyusim.MyBestHelperQuizUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyBestProfiler;
 				TEST_TARGET_NAME = MyBestHelperQuiz;
 				USES_XCTRUNNER = YES;
 			};
@@ -473,7 +554,7 @@
 				INFOPLIST_FILE = MyBestHelperQuizUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroyusim.MyBestHelperQuizUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyBestProfiler;
 				TEST_TARGET_NAME = MyBestHelperQuiz;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +563,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1D511031CF09FA0000E08DF /* Build configuration list for PBXProject "MyBestHelperQuiz" */ = {
+		B1D511031CF09FA0000E08DF /* Build configuration list for PBXProject "MyBestProfiler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1D511331CF09FA0000E08DF /* Debug */,
@@ -491,29 +572,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1D511351CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestHelperQuiz" */ = {
+		B1D511351CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestProfiler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1D511361CF09FA0000E08DF /* Debug */,
 				B1D511371CF09FA0000E08DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B1D511381CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestHelperQuizTests" */ = {
+		B1D511381CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestProfilerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1D511391CF09FA0000E08DF /* Debug */,
 				B1D5113A1CF09FA0000E08DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B1D5113B1CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestHelperQuizUITests" */ = {
+		B1D5113B1CF09FA0000E08DF /* Build configuration list for PBXNativeTarget "MyBestProfilerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1D5113C1CF09FA0000E08DF /* Debug */,
 				B1D5113D1CF09FA0000E08DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

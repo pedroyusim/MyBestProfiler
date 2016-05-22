@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AvatarCollectionViewCell.h
 //  MyBestHelperQuiz
 //
 //  Created by Lorna Kemp on 21/05/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AvatarCollectionViewCell : UICollectionViewCell
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageVIew;
 
 @end
-

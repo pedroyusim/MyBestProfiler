@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B1D511071CF09FA0000E08DF"
-               BuildableName = "MyBestHelperQuiz.app"
-               BlueprintName = "MyBestHelperQuiz"
-               ReferencedContainer = "container:MyBestHelperQuiz.xcodeproj">
+               BuildableName = "MyBestProfiler.app"
+               BlueprintName = "MyBestProfiler"
+               ReferencedContainer = "container:MyBestProfiler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B1D511201CF09FA0000E08DF"
-               BuildableName = "MyBestHelperQuizTests.xctest"
-               BlueprintName = "MyBestHelperQuizTests"
-               ReferencedContainer = "container:MyBestHelperQuiz.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B1D5112B1CF09FA0000E08DF"
-               BuildableName = "MyBestHelperQuizUITests.xctest"
-               BlueprintName = "MyBestHelperQuizUITests"
-               ReferencedContainer = "container:MyBestHelperQuiz.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1D511071CF09FA0000E08DF"
-            BuildableName = "MyBestHelperQuiz.app"
-            BlueprintName = "MyBestHelperQuiz"
-            ReferencedContainer = "container:MyBestHelperQuiz.xcodeproj">
+            BuildableName = "MyBestProfiler.app"
+            BlueprintName = "MyBestProfiler"
+            ReferencedContainer = "container:MyBestProfiler.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1D511071CF09FA0000E08DF"
-            BuildableName = "MyBestHelperQuiz.app"
-            BlueprintName = "MyBestHelperQuiz"
-            ReferencedContainer = "container:MyBestHelperQuiz.xcodeproj">
+            BuildableName = "MyBestProfiler.app"
+            BlueprintName = "MyBestProfiler"
+            ReferencedContainer = "container:MyBestProfiler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1D511071CF09FA0000E08DF"
-            BuildableName = "MyBestHelperQuiz.app"
-            BlueprintName = "MyBestHelperQuiz"
-            ReferencedContainer = "container:MyBestHelperQuiz.xcodeproj">
+            BuildableName = "MyBestProfiler.app"
+            BlueprintName = "MyBestProfiler"
+            ReferencedContainer = "container:MyBestProfiler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
