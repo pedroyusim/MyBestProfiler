@@ -17,38 +17,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="LqO-EI-Bl7">
-                                <rect key="frame" x="193" y="279" width="214" height="41"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen_background" translatesAutoresizingMaskIntoConstraints="NO" id="EjJ-nw-d4g">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-white-plus-subtitle" translatesAutoresizingMaskIntoConstraints="NO" id="LqO-EI-Bl7">
+                                <rect key="frame" x="179" y="257" width="242" height="87"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="214" id="bgq-g3-NeC"/>
-                                    <constraint firstAttribute="height" constant="41" id="qqe-Qn-q0n"/>
+                                    <constraint firstAttribute="height" constant="87" id="0r9-PA-7uU"/>
+                                    <constraint firstAttribute="width" constant="242" id="1tI-AP-JMQ"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KqH-Rg-Sgi" userLabel="TopView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="15"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="5"/>
                                 <color key="backgroundColor" red="0.77647058820000003" green="0.12549019610000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="05d-DC-HUi"/>
+                                    <constraint firstAttribute="height" constant="5" id="05d-DC-HUi"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RxJ-Kf-hFZ" userLabel="BottomView">
-                                <rect key="frame" x="0.0" y="585" width="550" height="15"/>
+                                <rect key="frame" x="0.0" y="595" width="550" height="5"/>
                                 <color key="backgroundColor" red="0.77647058820000003" green="0.12549019610000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="0zm-uE-Rbx"/>
+                                    <constraint firstAttribute="height" constant="5" id="0zm-uE-Rbx"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-vanhack-plus-powered-by" translatesAutoresizingMaskIntoConstraints="NO" id="ge4-LZ-mum">
+                                <rect key="frame" x="270" y="540" width="60" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Jkv-kK-9he"/>
+                                    <constraint firstAttribute="width" constant="60" id="Rop-zy-rkn"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="EjJ-nw-d4g" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="3WQ-PK-mnh"/>
                             <constraint firstAttribute="trailing" secondItem="KqH-Rg-Sgi" secondAttribute="trailing" id="Bsv-32-G88"/>
                             <constraint firstAttribute="trailing" secondItem="RxJ-Kf-hFZ" secondAttribute="trailing" constant="50" id="JWT-h1-uOd"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RxJ-Kf-hFZ" secondAttribute="bottom" id="O8O-7S-SFf"/>
+                            <constraint firstItem="ge4-LZ-mum" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aaq-CS-b8w"/>
+                            <constraint firstAttribute="trailing" secondItem="EjJ-nw-d4g" secondAttribute="trailing" id="bQN-Nn-n6f"/>
                             <constraint firstItem="KqH-Rg-Sgi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="csS-fY-HdG"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="EjJ-nw-d4g" secondAttribute="bottom" id="e04-gc-0co"/>
                             <constraint firstItem="RxJ-Kf-hFZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="etM-Dw-TFz"/>
                             <constraint firstItem="KqH-Rg-Sgi" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="jYm-Sk-jhc"/>
-                            <constraint firstItem="LqO-EI-Bl7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ko9-ZR-Tm8"/>
-                            <constraint firstItem="LqO-EI-Bl7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xr5-pG-MqN"/>
+                            <constraint firstItem="RxJ-Kf-hFZ" firstAttribute="top" secondItem="ge4-LZ-mum" secondAttribute="bottom" constant="20" id="tQA-5P-ZxJ"/>
+                            <constraint firstItem="LqO-EI-Bl7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uK0-ZV-Y7b"/>
+                            <constraint firstItem="EjJ-nw-d4g" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="v6A-kf-Zvu"/>
+                            <constraint firstItem="LqO-EI-Bl7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yes-aR-rUM"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -59,6 +75,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="322" height="62"/>
+        <image name="launch_screen_background" width="621" height="1104"/>
+        <image name="logo-vanhack-plus-powered-by" width="203" height="115"/>
+        <image name="logo-white-plus-subtitle" width="322" height="115"/>
     </resources>
 </document>
