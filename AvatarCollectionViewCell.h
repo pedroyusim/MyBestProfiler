@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageVIew;
 
+@property (strong, nonatomic) IBOutlet UILabel *labelDescription;
+
+@property (strong, nonatomic) IBOutlet UIButton *buttonChooseCharacter;
+
 @end

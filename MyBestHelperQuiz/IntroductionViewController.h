@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IntroductionViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface IntroductionViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
+@property (strong, nonatomic) IBOutlet UILabel *labelItemIndicator;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+
+- (IBAction)clickedChangeAvatarButton:(id)sender;
+- (IBAction)clickedNextButton:(id)sender;
 
 @end
 
